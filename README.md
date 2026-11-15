@@ -1,16 +1,31 @@
-## Hi there 👋
+# a2taka
 
-<!--
-**a2taka-sourse/a2taka-sourse** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+同志社大学で文化情報学を学んでいます。機械学習モデルの学習・移植・評価、シミュレーション、制作ツールの開発をしています。動作だけでなく、比較実験や計測で採否を確かめる工程を大切にしています。
 
-Here are some ideas to get you started:
+## 機械学習・ロボティクス
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **[PARC2026](https://weblab.t.u-tokyo.ac.jp/physical-ai-competition/)** — ロボット基盤モデル π0.5 のLoRA適応と評価。予選Track 1で **0.36363** を記録し、本選に進出しました。
+- **[禮天将棋](https://github.com/a2taka-sourse/raiten-shogi)** — 独自ルールのブラウザ対局を実装。別のエンジン実装でNNUEをやねうら王に移植し、参照実装と **9,112局面** で評価値が一致。v6はv5との比較対局300局で189勝でした。
+- **音声合成の学習と評価** — 6,989クリップ・約7.08時間の単一話者データでStyle-Bert-VITS2を学習。チェックポイント、推論設定、実聴サンプルを比較しました。
+- **GCI データ分析** — 表形式データの予測コンペに参加し、複数モデルのアンサンブルを比較。最終課題では離職予測に取り組みました。
+
+## シミュレーション・開発基盤
+
+- **下腦｜環境決定** — 共同制作の架空世界で、設定を物理条件に落とす条件アトラスと気候計算の設計・検証を担当。2次元のエネルギー収支モデルとExoPlaSimを使い、地形・気候・食料・人口の計算をつなぎました。[領土変遷と歴史の映像](https://www.youtube.com/watch?v=ybAFa3ah-os)
+- **[しかバトン Wiki Explorer](https://github.com/a2taka-sourse/shimono-tools)** — 同じ共同制作でMediaWikiへの1,334記事の移行と、記事・画像・カテゴリをブラウザで探索するUIに関わりました。
+- **エージェント用ゲートウェイ** — ツール呼び出しとセッション間通信をつなぐローカルゲートウェイを構築し、動作を確認しました。
+- **ローカルAI環境** — LinuxのGPU機を構築し、Windowsから学習・推論・3D生成を実行する作業環境を整えました。
+
+## 映像・音楽・3D
+
+- **Remotionのレンダリング高速化** — 長尺映像で使う描画をSkiaへ移す経路とFFmpegでのエンコードを検証。メモリ8 GBのPCで、Skia経路の12並列実行を **約29.8 fps** と計測しました。
+- **[骨粉史](https://www.youtube.com/watch?v=yG7qadPqosU)** — 約86分の歴史映像の共同制作。長尺を章ごとにレンダリングし、エンコードと出力の検証を進めました。
+- **ハムチューン・スタジオ** — 鼻歌を入力とする音楽生成ツールを試作し、Red Bull Basement 2026に提出しました。
+- **UNSLITHERの音楽処理ツール** — 音源分離、ピッチ・ビート検出、MIDI化と楽器の差し替えを制作工程に組み込みました。
+- **ローカル3D生成とBlender** — 画像から生成した3Dメッシュをローカルで扱い、Blenderで編集するワークフローを整備。PC教室のレイアウトの3D再現にも取り組んでいます。
+
+## 競技プログラミング
+
+日本情報オリンピック（JOI）本選出場・奨励賞。
+
+機械学習エンジニアリング、モデル評価、開発基盤のインターンに関心があります。
