@@ -2,7 +2,7 @@
 
 機械学習モデルの学習・移植・評価、シミュレーション、制作ツールの開発をしています。動作だけでなく、比較実験や計測で採否を確かめる工程を大切にしています。
 
-> **In English** — I train, port, and evaluate ML models, and I decide what to keep by measurement. Highlights: LoRA fine-tuning of the π0.5 vision-language-action model for the PARC2026 robot-learning competition (qualifier score 0.36363 vs. 0.16456 at rank 100; final-round Track 1 score 0.4059; with a written retrospective of what failed); an NNUE evaluator ported to the YaneuraOu shogi engine, verified bit-exact against the reference on 9,112 positions; skia-frames, a parallel Skia renderer for transparent PNG sequences; and a file-manager-style explorer for any MediaWiki. Interested in ML engineering, model evaluation, and infrastructure internships.
+> **In English** — I train, port, and evaluate ML models, and I decide what to keep by measurement. Highlights: LoRA fine-tuning of the π0.5 vision-language-action model for the PARC2026 robot-learning competition (qualifier score 0.36363 vs. 0.0633 for the organizers' reference example, 0.40556 at rank 100, top 200 advanced; final-round Track 1 score 0.4059; with a written retrospective of what failed); an NNUE evaluator ported to the YaneuraOu shogi engine, verified bit-exact against the reference on 9,112 positions; skia-frames, a parallel Skia renderer for transparent PNG sequences; and a file-manager-style explorer for any MediaWiki. Interested in ML engineering, model evaluation, and infrastructure internships.
 
 ## [新訳Wikiの3Dビューア](https://shikabaton.miraheze.org/wiki/3D%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2?view=globe&layer=elev)
 
@@ -10,7 +10,7 @@
 
 ## 機械学習・ロボティクス
 
-- **[PARC2026](https://weblab.t.u-tokyo.ac.jp/physical-ai-competition/)** — ロボット基盤モデル π0.5 のLoRA適応と評価。予選Track 1で **0.36363** を記録して本選に進み（通過は上位200名、100位のスコアは 0.16456）、本選第1ラウンドでは Track 1 で 0.4059 まで伸ばしました。[ノートブック・試した手法・Track 3 の反省](https://github.com/a2taka-sourse/parc2026-vla)
+- **[PARC2026](https://weblab.t.u-tokyo.ac.jp/physical-ai-competition/)** — ロボット基盤モデル π0.5 のLoRA適応と評価。予選Track 1で **0.36363** を記録して本選に進み（配布された学習例の参考スコアは 0.0633、予選終了時の100位は 0.40556、通過は上位200名）、本選第1ラウンドでは Track 1 で 0.4059 まで伸ばしました。[ノートブック・試した手法・Track 3 の反省](https://github.com/a2taka-sourse/parc2026-vla)
 - **[禮天将棋（raiten）](https://github.com/a2taka-sourse/raiten-shogi)** — 独自ルールのブラウザ対局を実装。別のエンジン実装でNNUEをやねうら王に移植し、参照実装と **9,112局面** で評価値が一致。v6はv5との比較対局300局で189勝でした。
 - **音声合成の学習と評価**（非公開） — 6,989クリップ・約7.08時間の単一話者データでStyle-Bert-VITS2を学習。チェックポイント、推論設定、実聴サンプルを比較しました。
 - **GCI データ分析**（非公開：講座の規約による） — 表形式データの予測コンペに参加し、複数モデルのアンサンブルを比較。最終課題では離職予測に取り組みました。
