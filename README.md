@@ -22,7 +22,7 @@
 
 ## 映像・音楽・3D
 
-- **Remotionのレンダリング高速化** — 長尺映像で使う描画をSkiaへ移す経路とFFmpegでのエンコードを検証。メモリ8 GBのPCで、Skia経路の12並列実行を **約29.8 fps** と計測しました。
+- **[Remotion Skia Renderer](https://github.com/a2taka-sourse/remotion-skia-renderer)** — メモリ8 GBのPCで、透過PNGを8,858枚、4分57秒で描画しました。コードと再現用デモを公開しています。
 - **[骨粉史](https://www.youtube.com/watch?v=yG7qadPqosU)** — 約86分の歴史映像の共同制作。長尺を章ごとにレンダリングし、エンコードと出力の検証を進めました。
 - **UNSLITHER** — 楽曲制作でローカルAIの **YuE2** を使用。音源分離、ピッチ・ビート検出、MIDI化、楽器の差し替えも制作工程に組み込みました。
 - **ローカル3D生成とBlender** — 画像から生成した3Dメッシュをローカルで扱い、Blenderで編集するワークフローを整備。PC教室のレイアウトの3D再現にも取り組んでいます。
